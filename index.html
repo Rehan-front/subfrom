@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>SUBMISSION FORM</title>
+ </head>
+ <body>
+ 	<script type="text/javascript">
+ 		 confirm("WELCOME DO YOU LIKE OUR WEBSITE")
+        function popUP(){
+        		confirm("PLEEASE SEND SCREENSHOT WHEN YOU COMPLETED IT TO (rehankhancr7123@gmail.com)-E-MAIL US")
+        }
+ 	</script> 
+ 	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+         /*normal codes*/
+        html,body
+        {
+        	scroll-behavior: smooth;
+        }
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins';
+            color: #fff;
+        }
+ 		body
+ 		{
+ 			background: #031321;
+ 		}
+ 		/*style*/
+ 		.upper-txt
+ 		{
+ 			text-align: center;
+ 			margin-top: 10px;
+ 		}
+ 		.upper-txt h1
+ 		{
+ 			letter-spacing: 5px;
+        	animation: c-f 5s linear infinite;
+        	animation-direction: alternate;
+ 		}
+        .upper-txt h1 span
+        {
+        	font-size: 1.7em;
+        	animation: c-c 5s linear infinite;
+        	animation-direction: alternate;
+        }
+        /*animate*/
+        @keyframes c-c   
+        {
+        	100%
+        	{
+        		color: #0082e6;
+        	}
+        }
+        @keyframes c-f   
+        {
+        	100%
+        	{
+        		color: #ff3f81;
+        	}
+        }
+        
+        #form
+        {
+        	width: 300px;
+        	height: 63vh;
+        	position: absolute;
+        	left: 50%;
+        	top: 50%;
+        	transform: translate(-50% , -50%);
+        	background: rgb(0,0,0,0.4);
+        	border-radius: 30px;
+        	text-align: center;
+        	margin-top: 20px;
+        }
+        .txt 
+        {
+           margin-top: 80px;
+        }
+        .txt label
+        {
+        	font-size: 1.2em;
+        	margin-top: -5px;
+        }
+        .txt input
+        {
+        	margin-top: 12px;
+        	width: 26px;
+        	border-radius: 20px;
+        	border: 0.2px solid #0082e6;
+        	transition: 0.6s ease;
+        	outline: none;
+        	color: #000;
+        }
+        .txt input:focus
+
+        {
+        	width: 150px;
+        	border: 0.6px solid #ff3f81;
+        }
+        a
+        {
+        	font-size: 1.5em;
+        	border: 0px solid red;
+        	background: linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#2305ab);
+        	background-position: 400% , 400%;
+        	padding: 6px 20px;
+        	text-decoration: none;
+        	border-radius: 10px;
+        	border-bottom-right-radius: 20px; 
+        	position: relative;
+        	animation: change 10s ease-in-out infinite;
+        }
+        @keyframes change 
+        {
+        	0%
+        	{
+        		background-position: 0 50%;
+        	}
+        	50%
+        	{
+        		background-position: 100% 50%;
+        	}
+        	100%
+        	{
+        		background-position: 0 50%;
+        	}
+        }
+ 	</style>
+     <div class="upper-txt">
+     	<h1><span>I</span>NRO<span>X</span></h1>
+     </div>
+     <div id="form">
+     	<div class="txt">
+     	<label>NAME</label><br>
+     	<input type="text" required="required"><br>
+     	<label>E-MAIL</label><br>
+     	<input type="email" required="required"><br>
+     	<label>PASSWORD</label><br>
+     	<input type="password" required="required"><br>
+     	<br>
+     	<br>
+     	<a href="#" onclick="popUP()">SUBMIT</a>
+     	</div>
+     </div>
+ </body>
+ </html>
